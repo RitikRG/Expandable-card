@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,600&display=swap');
+
+.off{
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+.fade {
+    max-height: 150px;
+    overflow: hidden;
+    animation: fadeIn 1s;
+    animation: textShow 1s;
+    opacity: 1;
+}
+    
+@keyframes fadeIn {
+    from {width: 0px;}
+    to {width: 100%;}
+}
+@keyframes textShow {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.changePos{
+    animation: changePos 900ms;
+    text-align: left;
+}
+.changeBackPos{
+    animation: changeBackPos 900ms;
+    text-align: center;
+}
+
+.incWidth {
+    animation: incWidth 1s;
+    width: 50vw;
+}
+
+.decWidth{
+    animation: decWidth 1s;
+    width: 200px;
+}
+    
+@keyframes incWidth {
+    from{width: 200px;}
+    to {width: 50vw;}
+}
+@keyframes decWidth {
+    from{width: 50vw;}
+    to {width: 200px;}
+}
+@keyframes changePos {
+    from{text-align: center;}
+    to {text-align: left;}
+}
+@keyframes changeBackPos {
+    from{text-align: left;}
+    to {text-align: center;}
+}
