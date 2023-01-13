@@ -3,9 +3,11 @@ It's basically a component that can have usecases like FAQs, Infopedia and many 
 
 <p align="left">
 <h2> Technologies used </h2>
-* HTML
-* Tailwind CSS
-* JavaScript
+<ul>
+  <li> HTML</li>
+  <li> Tailwind CSS</li>
+  <li> JavaScript</li>
+</ul>
 </p>
 
 <img align="right" alt="Coding" width="400" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
