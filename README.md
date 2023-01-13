@@ -2,7 +2,7 @@
 It's basically a component that can have usecases like FAQs, Infopedia and many more!
 
 <p align="left">
-## Technologies used 
+<h2> Technologies used </h2>
 * HTML
 * Tailwind CSS
 * JavaScript
